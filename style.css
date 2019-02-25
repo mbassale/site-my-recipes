@@ -69,6 +69,11 @@ header li:first-child {
     margin: 0;
 }
 
+#logo p a {
+    color: #b46363;
+    text-decoration: none;
+}
+
 /* CONTENT */
 /**
  * For modern browsers
@@ -151,8 +156,15 @@ header li:first-child {
     margin-left: 15px;
 }
 
-.middle p {
+.light-title p {
     color: white;
+}
+
+/* ABOUT */
+#about {
+    height: 100%;
+    background-color: white;
+    padding: 20px;
 }
 
 /* FOOTER */
@@ -166,6 +178,12 @@ footer {
     background-color: #e5e0e0;
     height: 140px;
     padding-top: 20px;
+}
+
+footer.sticky {
+    position: fixed;
+    bottom: 0;
+    width: 960px;
 }
 
 footer li {
